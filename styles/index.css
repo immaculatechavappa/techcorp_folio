@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#shadow {
+  background: white;
+  padding: 20px;
+  width: 25%;
+  height: auto;
+  text-align: center;
+  box-shadow: 10px 10px 10px black;
+
+  h1 {
+    text-shadow: 2px 2px 5px black;
+  }
+}
